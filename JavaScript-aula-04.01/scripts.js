@@ -1,3 +1,4 @@
+
 // const myName = "Aline Cruz"
 // const birthCity = "São Paulo"
 // let birthYear = 1989
@@ -11,7 +12,7 @@
 
 // birthCity = "Bahia";
 // console.log(birthCity)
-
+//---------------------------------------------------------//
 // let patientId = 50;
 // let isEnrolled = true;
 // const patientInfo = {
@@ -24,7 +25,7 @@
 // console.log(typeof isEnrolled);
 // console.log(typeof patientInfo);
 // console.log(typeof patientEmail);
-
+//---------------------------------------------------------//
 // const base = 5;
 // let height = 8;
 
@@ -40,15 +41,27 @@
 // const perimeter = lado1 + lado2 + lado3 + lado4;
 
 // console.log(perimeter);
+//----------------------------------------------------------//
+// const nota = 8;
 
-const nota = 8;
+// if (nota >= 80) {
+//     console.log ("Parabéns, você foi aprovada(o)!");
+// } 
+// else if (nota < 80 && nota >= 60) {
+//     console.log("Você está na nossa lista de espera");
+// }
+// if (nota < 60) {
+//    console.log("Você foi reprovada(o)");
+// }
+//----------------------------------------------------------//
+const altura = 1.49
 
-if (nota >= 80) {
-    console.log ("Parabéns, você foi aprovada(o)!");
-} 
-else if (nota < 80 && nota >= 60) {
-    console.log("Você está na nossa lista de espera");
+if (altura >= 1.50){
+    console.log ("Pode entrar no brinquedo");
 }
-if (nota < 60) {
-   console.log("Você foi reprovada(o)");
+else if (altura < 1.50 && altura >= 1.48 ){
+    console.log ("Verificar a possibilidade");
+}
+else {
+    console.log("Não pode entrar");
 }
