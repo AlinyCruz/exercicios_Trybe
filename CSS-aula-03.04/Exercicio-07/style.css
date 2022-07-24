@@ -1,9 +1,45 @@
 header {
     font-family: GeoEditBold,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(3, 68, 7);
+    color: aquamarine;       
 }
 
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(89, 226, 89);
+    text-align: center;
+}
+
+nav{
+    text-align: left;
+    font-size: 20px;
+}
+
+.navegacao{
+    color: azure;
+}
 
 #nome {
     font-style: italic;
+}
 
+article h1{
+    font-size: 30px;  
+}
+
+aside{
+    position: absolute;
+    margin-left: 1500px;
+    margin-right: 150px;
+    margin-top: 100px;
+    font-size: 30px; 
+}
+
+footer{
+    padding: 20px;
+    background-color: rgb(3, 68, 7);
+    color: aquamarine;
 }
